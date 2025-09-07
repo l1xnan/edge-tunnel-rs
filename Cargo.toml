@@ -1,0 +1,16 @@
+[package]
+name = "edge-tunnel-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["l1xnan <l1xnan@qq.com>"]
+
+[package.metadata.release]
+release = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+worker = { version = "0.6" }
+worker-macros = { version = "0.6" }
+console_error_panic_hook = { version = "0.1.7" }
